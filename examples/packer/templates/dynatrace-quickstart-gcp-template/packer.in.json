@@ -1,6 +1,7 @@
 {
   "license": "imagebuilder-test",
   "source_image_family": "ubuntu-1804-lts",
+  "image_family": "dynatrace-managed",
   "chef": {
     "run_list": [ "dynatrace-quickstart-gcp" ]
   }

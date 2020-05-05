@@ -13,5 +13,5 @@
 # limitations under the License.
 
 name 'dynatrace-quickstart-gcp'
-# depends 'apache2'
-# supports 'debian'
+# depends 'c2d-config'
+supports 'ubuntu', '>= 18.04'
