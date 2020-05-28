@@ -1,8 +1,7 @@
 # see https://github.com/werwuifi/marketplace-vm-imagebuilder
 
 export KEY_FILE_PATH=/Users/wolfgang.schreiner/Workspace/gcp/marketplace-vm-imagebuilder/imagebuilder-service-account.json
-export PROJECT=dynatrace-quickstart-gcp
-export PUBLISH_TO_PROJECT=dynatrace-quickstart-gcp
+export PROJECT=dynatrace-marketplace-prod
 export BUCKET=dynatrace-quickstart-gcp-bucket
 export SOLUTION_NAME=dynatrace-quickstart-gcp-template
 export IMAGE_NAME=dynatrace-quickstart-gcp-image
@@ -15,4 +14,7 @@ docker run \
   -e "PROJECT=$PROJECT" \
   -e "BUCKET=$BUCKET" \
   -e "SOLUTION_NAME=$SOLUTION_NAME" \
+  -e "ATTACH_LICENSE=true" \
+  -e "LICENSE_PROJECT_NAME=$PROJECT" \
+  -e "PUBLISH_TO_PROJECT=$PROJECT" \
   imagebuilder
