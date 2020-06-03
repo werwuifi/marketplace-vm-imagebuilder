@@ -2,7 +2,7 @@
 
 export KEY_FILE_PATH=/Users/wolfgang.schreiner/Workspace/gcp/marketplace-vm-imagebuilder/imagebuilder-service-account.json
 export PROJECT=dynatrace-marketplace-prod
-export BUCKET=dynatrace-quickstart-gcp-bucket
+export BUCKET=quickstart-dynatrace-gcp-bucket
 export SOLUTION_NAME=dynatrace-quickstart-gcp-template
 export IMAGE_NAME=dynatrace-quickstart-gcp-image
 

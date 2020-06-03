@@ -1,5 +1,5 @@
 {
-  "license": "imagebuilder-test",
+  "license": "dynatrace-managed-quickstart",
   "source_image_family": "ubuntu-1804-lts",
   "image_family": "dynatrace-managed",
   "chef": {
